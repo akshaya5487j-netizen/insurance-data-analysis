@@ -1,31 +1,51 @@
-Health Insurance Premium Prediction
-Project Overview:
-This project uses machine learning regression algorithms to predict health insurance premiums based on individuals demographic and health informations.
-Objecctives:
-1) Predict health insurance premiums accurately
-2) Identify important factors affecting insurance costs
-3) compare different aggression models
-4) Develop a user friendly premium prediction system
-Project Workflow:
-1) EDA-
-* Analyzed demographic and health data
-* Handled missing values and outliers
-* Studied target variable distribution
-2) Feature Engineering-
-* Created BMI categories and age brackets
-* Developed smoking status interaction feature
-* Prevented data leakage during preprocessing
-3) Model Building-
-* Linear regression
-* Random forest regressor
-* XGBoost regressor
-4) Model Evaluation-
-* Used cross validation
-* Evaluated models using RMSE and MAE
-* Performed residual error analysis to understand prediction errors
-5) Deployment-
-  Developed an interface pipeline using FastAPI/Streamlit to provide real time health insurance premium predictions
-6) Technologies used-
-  Python,Pandas,Numpy,Matplotlib,Seaborn,Scikit-learn,XGBoost,fastAPI/Streamlit
-7) Project Outcome-
-  Built a machine learning based system to estimate health insurance premiums using demographic and health related features.
+# Health Insurance Premium Prediction
+
+##  Project Overview
+This project uses Machine Learning regression algorithms to predict health insurance premiums based on individuals' demographic and health-related information.
+
+The main goal is to analyse important factors affecting insurance costs and develop an accurate premium prediction system.
+
+##  Objectives
+- Predict health insurance premiums accurately.
+- Identify important factors affecting insurance costs.
+- Compare different regression models.
+- Develop a user-friendly premium prediction system.
+
+##  Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Jupyter Notebook
+
+##  Project Workflow
+
+### 1. Exploratory Data Analysis (EDA)
+- Analysed demographic and health data.
+- Handled missing values and outliers.
+- Studied target variable distribution.
+
+### 2. Feature Engineering
+- Created BMI categories and age brackets.
+- Developed smoking status interaction features.
+- Prepared features for model training.
+
+### 3. Model Building
+- Applied regression algorithms.
+- Trained and tested machine learning models.
+- Compared model performance.
+
+### 4. Model Evaluation
+- Evaluated prediction performance.
+- Compared different regression models.
+
+##  Key Insights
+- Analysed factors influencing health insurance premiums.
+- Explored relationships between customer characteristics and insurance costs.
+
+
+
+## 🏁 Conclusion
+This project helped explore health insurance data, understand factors influencing premiums, and apply machine learning regression techniques for prediction.
